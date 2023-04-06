@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>134的TRPG个人主页</title>
+  
+  <subtitle>World&#39;s BEST GM！</subtitle>
+  <link href="http://cookie134.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://cookie134.github.io/"/>
+  <updated>2023-04-05T09:07:27.867Z</updated>
+  <id>http://cookie134.github.io/</id>
+  
+  <author>
+    <name>cookie134</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>只是为了好看</title>
+    <link href="http://cookie134.github.io/2023/04/05/zhi-shi-wei-liao-hao-kan/"/>
+    <id>http://cookie134.github.io/2023/04/05/zhi-shi-wei-liao-hao-kan/</id>
+    <published>2023-04-05T09:06:40.000Z</published>
+    <updated>2023-04-05T09:07:27.867Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="只是为了对称"><a href="#只是为了对称" class="headerlink" title="只是为了对称"></a>只是为了对称</h2><p>一行三个，这样下来刚刚好（x）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;只是为了对称&quot;&gt;&lt;a href=&quot;#只是为了对称&quot; class=&quot;headerlink&quot; title=&quot;只是为了对称&quot;&gt;&lt;/a&gt;只是为了对称&lt;/h2&gt;&lt;p&gt;一行三个，这样下来刚刚好（x）&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试一下</title>
+    <link href="http://cookie134.github.io/2023/04/05/wo-de-ce-shi-wen-zhang/"/>
+    <id>http://cookie134.github.io/2023/04/05/wo-de-ce-shi-wen-zhang/</id>
+    <published>2023-04-05T09:01:44.000Z</published>
+    <updated>2023-04-06T08:52:17.645Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="这个文章用来测试一些最基本的功能"><a href="#这个文章用来测试一些最基本的功能" class="headerlink" title="这个文章用来测试一些最基本的功能"></a>这个文章用来测试一些最基本的功能</h2><h3 id="目前已经已经拥有了留言和留言板"><a href="#目前已经已经拥有了留言和留言板" class="headerlink" title="目前已经已经拥有了留言和留言板"></a>目前已经已经拥有了留言和留言板</h3><p>应该勉强可以代替上次的那个建议箱子（x）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;这个文章用来测试一些最基本的功能&quot;&gt;&lt;a href=&quot;#这个文章用来测试一些最基本的功能&quot; class=&quot;headerlink&quot; title=&quot;这个文章用来测试一些最基本的功能&quot;&gt;&lt;/a&gt;这个文章用来测试一些最基本的功能&lt;/h2&gt;&lt;h3 id=&quot;目前已经已经拥有了</summary>
+      
+    
+    
+    
+    
+    <category term="测试" scheme="http://cookie134.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>看我！</title>
+    <link href="http://cookie134.github.io/2023/04/04/hello-world/"/>
+    <id>http://cookie134.github.io/2023/04/04/hello-world/</id>
+    <published>2023-04-04T14:33:33.393Z</published>
+    <updated>2023-04-05T08:51:40.760Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到134的TRPG个人主页！请在留言板的位置写上自己的建议！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎来到134的TRPG个人主页！请在留言板的位置写上自己的建议！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
