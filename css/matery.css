@@ -2294,3 +2294,7 @@ body.DarkMode .theme-btn:hover {
     font-weight: 900;
     color: #d9534f;
 }
+
+header .brand-logo .logo-img{
+    display: none;
+}
