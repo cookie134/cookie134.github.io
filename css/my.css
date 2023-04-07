@@ -16,6 +16,6 @@
 /* �޸Ĳ��ͱ���������С */ 
 @media only screen and (max-width: 601px) { 
     header .brand-logo .logo-span { 
-        font-size: 1.5rem; 
+        font-size: 1.0rem; 
     }
 }
