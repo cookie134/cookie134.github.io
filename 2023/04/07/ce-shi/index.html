@@ -737,10 +737,13 @@
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
 <script>
-new Valine({
+    new Valine({
         el: '#vcomments',
+        admin_email: '16463223@qq.com',
         appId: 'BAnvm7gj6uC0CZskl3q9qrvS-gzGzoHsz',
         appKey: 'tA0TC8xrEMZi6DAtAV3xl6sc',
+        path: window.location.pathname,
+        comment_count: true,
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -806,28 +809,6 @@ new Valine({
         },
         requiredFields: ['nick','mail'], //设置必填项
     });
-</script>
-
-<!--酷Q推送-->
-
-
-<script>
-    new Valine({
-        el: '#vcomments',
-        admin_email: '16463223@qq.com',
-        appId: 'BAnvm7gj6uC0CZskl3q9qrvS-gzGzoHsz',
-        appKey: 'tA0TC8xrEMZi6DAtAV3xl6sc',
-        path: window.location.pathname,
-        comment_count: true,
-        notify: 'false' === 'true',
-        verify: 'false' === 'true',
-        visitor: 'true' === 'true',
-        avatar: 'mm',
-        pageSize: '10',
-        lang: 'zh-cn',
-        placeholder: '填写邮箱后可以得到你的头像！',
-
-    });
     $(document).ready(function(){
         $("#vcomments").on('click', 'span.vat',function(){
             $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
@@ -842,6 +823,10 @@ new Valine({
         document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
     });
 </script>
+
+<!--酷Q推送-->
+
+
     
 
     
@@ -888,12 +873,12 @@ new Valine({
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/GM/">
-                        <span class="chip bg-color">GM</span>
-                    </a>
-                    
                     <a href="/tags/%E5%B7%A5%E5%85%B7/">
                         <span class="chip bg-color">工具</span>
+                    </a>
+                    
+                    <a href="/tags/GM/">
+                        <span class="chip bg-color">GM</span>
                     </a>
                     
                 </div>
