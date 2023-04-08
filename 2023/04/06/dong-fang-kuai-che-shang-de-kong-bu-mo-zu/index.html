@@ -747,13 +747,10 @@
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
 <script>
-    new Valine({
+new Valine({
         el: '#vcomments',
-        admin_email: '16463223@qq.com',
         appId: 'BAnvm7gj6uC0CZskl3q9qrvS-gzGzoHsz',
         appKey: 'tA0TC8xrEMZi6DAtAV3xl6sc',
-        path: window.location.pathname,
-        comment_count: true,
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -819,23 +816,9 @@
         },
         requiredFields: ['nick','mail'], //设置必填项
     });
-    $(document).ready(function(){
-        $("#vcomments").on('click', 'span.vat',function(){
-            $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
-            $('textarea#veditor').focus();
-        })
-    })
-</script>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<script type="text/javascript">
-    jinrishici.load(function(result) {
-        var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author
-        document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
-    });
 </script>
 
 <!--酷Q推送-->
-
 
     
 
